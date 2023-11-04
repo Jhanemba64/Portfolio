@@ -1,0 +1,110 @@
+.projetList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.hovered {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.text-with-gradient {
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  -webkit-background-clip: text; /* Utilisé pour les navigateurs WebKit, comme Chrome et Safari */
+  background-clip: text;
+  color: transparent; /* Pour rendre le texte lui-même transparent */
+}
+
+.centered-header {
+  font-family: "Copperplate Gothic";
+  padding: 3rem;
+  font-size: 2rem;
+}
+
+.projectCard {
+  display: flex;
+  align-items: center;
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #393253;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:200");
+
+body {
+  background-image: url("https://images.alphacoders.com/110/1107263.jpg");
+  background-size: cover;
+  -webkit-animation: slidein 100s;
+  animation: slidein 100s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 3px;
+  background: rgba(75, 75, 250, 0.3);
+  background-color: lightgray;
+}

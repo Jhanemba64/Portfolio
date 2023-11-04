@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "Poulpote",
+    "picture": "/Poulpote.png",
+    "link": "https://poulpote.com",
+    "description": "Poulpote est une plateforme de mise en relation entre les entreprises et les étudiants. Elle permet aux entreprises de trouver des étudiants pour des missions ponctuelles et aux étudiants de trouver des missions rémunérées."
+  },
+  {
+    "id": 2,
+    "name": "Pokekwack",
+    "picture": "/Ecto.png",
+    "description": "Projet de fin d'études, Pokekwack est un jeu de combat en ligne. Il s'agit d'un jeu de combat au tour par tour, dans lequel les joueurs incarnent des dresseurs de Pokémon. Ils peuvent capturer des Pokémon, les faire évoluer et les faire combattre contre d'autres joueurs."
+  }
+]
